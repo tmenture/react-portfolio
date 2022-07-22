@@ -1,10 +1,10 @@
 import React from 'react';
 
 function About() {
-    retrun (
+    return (
         <div>
             <p className="content is-medium>">Aspiring Full Stack Web Developer</p>
-            <hr />
+            
             <p className="content is-bold mt-4">
                 My name is Thomas, I am a freshly certified Full Stack Web Developer.
                 I have just finished my course and am eager to join the workforce.

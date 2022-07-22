@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import { validateEmail } from '../../utils/helpers';
 
 function Contact () {
+
+    const [state, handleSubmit] = useForm("xknyyydk");
+
     const [formState, setFormState] = useState({ name: '', email: '', messege: '' });
+
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
 
@@ -20,7 +25,6 @@ function Contact () {
     }
 
     const handleChange = (e) => {
-
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
@@ -34,15 +38,12 @@ function Contact () {
             setFormState({ ...formState, [e.target.name]: e.target.value });
             console.log('Handle Form', formState);
         }
-        
     };
 
     return (
         <div>
 
             <p className='content is-medium'>Contact Me:</p>
-
-            <hr />
 
             <form id='contact-form' onSubmit={handleSubmit}>
 
@@ -73,4 +74,4 @@ function Contact () {
     );
 }
 
-export default Contact;
+export default Contact
