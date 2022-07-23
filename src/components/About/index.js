@@ -14,7 +14,7 @@ function About() {
                 Throughout this course I have grown to love coding. 
                 It is extremely interesting, with an evergrowing knowledge base.
                 <br /> 
-                I have grown particularly fond of using the full stack
+                I have grown particularly fond of using the MERN stack
                 to make applications, and on this page you will see 
                 <br />
                 some of the projects I have developed on 
