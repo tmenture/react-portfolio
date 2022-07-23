@@ -13,7 +13,7 @@ function Footer () {
                     .
                     <br />
                     <a 
-                        href="https://www.linkedin.com/in/thomasmenture"
+                        href="https://www.linkedin.com/in/thomas-menture-a3b342232/"
                         target='_blank' rel="noreferrer"
                     >
                         LinkedIn 
