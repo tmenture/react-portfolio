@@ -41,13 +41,21 @@ function Contact () {
     };
 
     return (
-        <div>
+        <div className='mr-5 ml-5'>
 
-            <p className='content is-medium'>Contact Me:</p>
+            <p className='content is-medium is-underlined'>Contact Me:</p>
 
+            <div>
+                <p className='content is-medium'>
+                    Phone: 609-384-4628
+                    <br />
+                    Email: thomasoxemail@gmail.com
+                </p>
+            </div>
+            <br />
             <form id='contact-form' onSubmit={handleSubmit}>
 
-                <div className='field'>
+                <div className='field '>
                     <label className='label' htmlFor='name'>Name</label>
                     <input className='input' type='text' name='name' defaultValue={name} onBlur={handleChange} />
                 </div>
@@ -67,7 +75,7 @@ function Contact () {
                         <p className='is-danger'>{errorMessage}</p>
                     </div>
                 )}
-                <button className='button is-medium is-primary is-fullwidth' data-testid='button' type='submit'>Submit</button>
+                <button className='button is-medium is-success is-fullwidth' data-testid='button' type='submit'>Submit</button>
             </form>
 
         </div>

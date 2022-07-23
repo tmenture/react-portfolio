@@ -11,7 +11,7 @@ function Footer () {
                         Thomas Menture
                     </a> 
                     .
-                
+                    <br />
                     <a 
                         href="https://www.linkedin.com/in/thomasmenture"
                         target='_blank' rel="noreferrer"
