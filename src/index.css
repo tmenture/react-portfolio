@@ -17,7 +17,7 @@ div.navbar-brand {
 }
 
 main {
-  margin: 9em;
+  margin: 15%;
 }
 
 .label {
@@ -27,6 +27,8 @@ main {
 footer.footer {
   background-color: gray;
 }
+
+
 
 @media only screen and (max-width: 586px) {
   main {
