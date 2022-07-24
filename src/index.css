@@ -24,6 +24,10 @@ main {
   text-align: left;
 }
 
+.column {
+  margin: 7%;
+}
+
 footer.footer {
   background-color: gray;
 }
