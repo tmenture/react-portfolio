@@ -42,6 +42,16 @@ const projects = [
         repo: "https://github.com/tmenture/Budget-Tracker",
         live: "https://toms-budget-tracker.herokuapp.com/"
     },
+    {
+        id: 5,
+        title: "Better Reads 2",
+        languages: "JavaScript, JSX, CSS, HTML",
+        packages: "Concurrently, apollo-server-express, bcrypt, express, jsonwebtoken, moment, mongoose, nodemon, @apollo/react-hooks, @stripe/react-stripe-js, @stripe/stripe-js, @testing-library/jest-dom, @testing-library/react, @testing-library/user-event, apollo-boost, axios, bootstrap, graphql, graphql-tag, jwt-decode, react, react-bootstrap, react-dom, react-router-dom, react-scripts, react-stripe-checkout, react-toastify, stripe",
+        image: "/images/better-reads-2-snap-shot.png",
+        description: "A virtual book shelf for the busy reader so that they never forget that book they wanted to read.",
+        repo: "https://github.com/tmenture/Better-Reads-2.0",
+        live: "https://better-reads-2.herokuapp.com/"
+    }
 ];
 
 function Portfolio() {
