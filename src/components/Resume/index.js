@@ -9,7 +9,7 @@ function Resume () {
                 <br />
                 <a
                     className='button is-success'
-                    href="C:\Users\thoma\OneDrive\Desktop\Codeing_Folder\react-portfolio\public\images\Updated Resume.pdf" // should be {link to pdf of resume}
+                    href={process.env.PUBLIC_URL + "/Updated-Resume.pdf"}
                     target="_blank" rel="noreferrer"
                 >
                     <span className='icon'>
