@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Resume () {
     return (
         <div className='columns'>
@@ -8,7 +9,7 @@ function Resume () {
                 <br />
                 <a
                     className='button is-success'
-                    href="" // should be {link to pdf of resume}
+                    href="C:\Users\thoma\OneDrive\Desktop\Codeing_Folder\react-portfolio\public\images\Updated Resume.pdf" // should be {link to pdf of resume}
                     target="_blank" rel="noreferrer"
                 >
                     <span className='icon'>
